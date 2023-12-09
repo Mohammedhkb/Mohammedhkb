@@ -1,8 +1,13 @@
-Get the user's grade
-grade = float(input("Enter your grade: "))
+# Define student information
+student_name = "Abdullah Khalid"
+email = "a.khaid@gmail.com"
+university = "University of Jeddah"
+student_id = "2200000"
+gpa = 4.5
 
-Check if the grade is passing
-if grade >= 60:
-  print("Congrats, you passed the test!")
-else:
-  print("Sorry, you failed the test.")
+# Display information with formatting
+print(f"Student Name: {student_name}")
+print(f"Email: {email}")
+print(f"University: {university}")
+print(f"ID: {student_id}")
+print(f"MY GPA: {gpa}")

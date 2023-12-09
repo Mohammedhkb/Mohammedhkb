@@ -1,13 +1,10 @@
-# Define student information
-student_name = "Abdullah Khalid"
-email = "a.khaid@gmail.com"
-university = "University of Jeddah"
-student_id = "2200000"
-gpa = 4.5
+# Initialize variables
+sum = 0
 
-# Display information with formatting
-print(f"Student Name: {student_name}")
-print(f"Email: {email}")
-print(f"University: {university}")
-print(f"ID: {student_id}")
-print(f"MY GPA: {gpa}")
+# Loop 10 times to sum natural numbers
+for i in range(1, 11):
+  # Add current number to the sum
+  sum += i
+
+# Print the sum of the first 10 natural numbers
+print(f"The sum of the first 10 natural numbers is: {sum}")

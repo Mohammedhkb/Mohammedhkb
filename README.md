@@ -1,13 +1,13 @@
-#  student information
-email = "ghalalotfi19@gmail.com"
-university = " University,of Jeddah 
-university_number = "2410470"
-gpa = 98
+# Define student information
+ student_name = "Raoud Badr Al-Mabadi"
+ university_number = "2410637"
+ id_number = "1131685651"
+ university = "Jeddah University"
+ gpa = 97
 
-# Display information with formatting
-print(f"Student Name: {student_name}")
-print(f"Email: {email}")
-print(f"University: {university}")
-print(f"ID: {student_id}")
-print(f"University Number: {university_number}")
-"Cumulative Average: {gpa}")
+ # Display information with formatting
+ print(f"Name: {student_name}")
+ print(f"University Number: {university_number}")
+ print(f"Identity: {id_number}")
+ print(f"University: {university}")
+ print(f"GPA: {gpa}")

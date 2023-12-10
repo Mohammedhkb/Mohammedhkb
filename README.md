@@ -1,8 +1,6 @@
-# Define student information
-student_name = "Ghala Lotfi Abdul Latif Al-Maghribi"
+#  student information
 email = "ghalalotfi19@gmail.com"
-university = "Jeddah University, Khulais Branch"
-student_id = "1129131379"
+university = " University,of Jeddah 
 university_number = "2410470"
 gpa = 98
 

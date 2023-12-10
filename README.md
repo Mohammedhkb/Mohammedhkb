@@ -1,27 +1,15 @@
-def factorial(n):
-  """
-  This function calculates the factorial of a non-negative integer.
+# Define student information
+student_name = "Ghala Lotfi Abdul Latif Al-Maghribi"
+email = "ghalotfi19@gmail.com"
+university = "Jeddah University, Khulais Branch"
+student_id = "1129131379"
+university_number = "2410470"
+gpa = 98
 
-  Args:
-      n: The non-negative integer whose factorial is to be calculated.
-
-  Returns:
-      The factorial of n.
-  """
-  
-  if n == 0:
-    return 1
-  else:
-    result = 1
-    for i in range(1, n + 1):
-      result *= i
-    return result
-
-# Get number from user
-number = int(input("Enter a number: "))
-
-# Calculate and print the factorial
-if number >= 0:
-  print(f"The factorial of {number} is: {factorial(number)}")
-else:
-  print("Factorial is not defined for negative numbers.")
+# Print information using f-strings
+print(f"Student Name: {student_name}")
+print(f"Email: {email}")
+print(f"University: {university}")
+print(f"ID: {student_id}")
+print(f"University Number: {university_number}")
+print(f"Cumulative Average: {gpa}")

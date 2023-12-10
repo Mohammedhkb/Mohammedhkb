@@ -1,13 +1,26 @@
-# Define student information
- student_name = "Raoud Badr Al-Mabadi"
- university_number = "2410637"
- id_number = "1131685651"
- university = "Jeddah University"
- gpa = 97
+# Initialize variables
+sum = 0
+average = 0
 
- # Display information with formatting
- print(f"Name: {student_name}")
- print(f"University Number: {university_number}")
- print(f"Identity: {id_number}")
- print(f"University: {university}")
- print(f"GPA: {gpa}")
+# Loop 5 times to get 5 numbers
+for i in range(5):
+  # Get input from the user as a string
+  number = input(f"Enter number {i + 1}: ")
+
+  # Try converting the input to a float
+  try:
+    number = float(number)
+  except ValueError:
+    print("Invalid input. Please enter a number.")
+    continue
+
+  # Add the number to the sum
+  sum += number
+
+# Calculate the average
+average = sum / 5
+
+# Print the sum and average
+print(f"The sum of the 5 numbers is: {sum}")
+print(f"The average of the 5 numbers is: {average}")
+
